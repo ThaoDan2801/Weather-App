@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">WeatherApp</string>
+    <string name="SignIn_A_01">Đăng nhập bằng Google</string>
+    <string name="SignIn_A_02">Đăng xuất</string>
 </resources>
