@@ -2,4 +2,14 @@
     <string name="app_name">WeatherApp</string>
     <string name="SignIn_A_01">Đăng nhập bằng Google</string>
     <string name="SignIn_A_02">Đăng xuất</string>
+    <string name="Splash_A_01">Weather Matters,\n We\'ve Got the Details</string>
+    <string name="DesignBy_A_01">Design By</string>
+    <string name="DesignBy_A_02">Glucozo</string>
+    <string name="Main_A_01">°C</string>
+    <string name="Main_A_02">Humidity</string>
+    <string name="Main_A_03">Wind Speed</string>
+    <string name="Main_A_04">Conditions</string>
+    <string name="Main_A_05">Sunrise</string>
+    <string name="Main_A_06">Sunset</string>
+    <string name="Main_A_07">Sea</string>
 </resources>

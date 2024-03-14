@@ -1,7 +1,7 @@
 plugins {
     id("com.android.application")
     id("org.jetbrains.kotlin.android")
-    id ("kotlin-kapt")
+    id("kotlin-kapt")
     id("com.google.gms.google-services")
 
 }
@@ -37,8 +37,8 @@ android {
         jvmTarget = "1.8"
     }
     buildFeatures {
-        viewBinding= true
-        dataBinding =true
+        viewBinding = true
+        dataBinding = true
     }
 }
 
@@ -53,8 +53,16 @@ dependencies {
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
 
-
-    implementation ("com.google.firebase:firebase-bom:32.7.3")
+//    firebase
+    implementation("com.google.firebase:firebase-bom:32.7.3")
 //    implementation ("com.google.firebase:firebase-auth-ktx")
-    implementation ("com.google.android.gms:play-services-auth:21.0.0")
+    implementation("com.google.android.gms:play-services-auth:21.0.0")
+
+    //lottie animations
+    implementation("com.airbnb.android:lottie:6.1.0")
+
+    // GSON converter
+    implementation("com.squareup.retrofit2:converter-gson:2.9.0")
+// retrofit
+    implementation("com.squareup.retrofit2:retrofit:2.9.0")
 }

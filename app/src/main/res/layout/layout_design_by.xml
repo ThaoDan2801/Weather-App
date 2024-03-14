@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:fontFamily="@font/aribl"
+        android:layout_centerHorizontal="true"
+        android:layout_height="wrap_content"
+        android:text="@string/DesignBy_A_01"/>
+    <androidx.appcompat.widget.AppCompatTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="@font/batelga_italic"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:text="@string/DesignBy_A_02"/>
+
+
+</RelativeLayout>
