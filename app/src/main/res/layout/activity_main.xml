@@ -54,7 +54,7 @@
         android:id="@+id/tv_date_day"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Today"
+        android:text="@string/Main_A_14"
         android:textSize="30sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
@@ -112,8 +112,7 @@
         android:layout_height="wrap_content"
         android:text="Min :23.22 "
         android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@id/lottieAnimationView"
+        app:layout_constraintStart_toStartOf="@+id/tv_temperature_max"
         app:layout_constraintTop_toBottomOf="@id/tv_temperature_max" />
 
     <androidx.appcompat.widget.AppCompatTextView

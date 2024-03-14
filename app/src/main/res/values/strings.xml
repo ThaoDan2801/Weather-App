@@ -6,10 +6,17 @@
     <string name="DesignBy_A_01">Design By</string>
     <string name="DesignBy_A_02">Glucozo</string>
     <string name="Main_A_01">°C</string>
-    <string name="Main_A_02">Humidity</string>
-    <string name="Main_A_03">Wind Speed</string>
-    <string name="Main_A_04">Conditions</string>
-    <string name="Main_A_05">Sunrise</string>
-    <string name="Main_A_06">Sunset</string>
-    <string name="Main_A_07">Sea</string>
+    <string name="Main_A_02">Dộ ẩm</string>
+    <string name="Main_A_03">Tốc độ gió</string>
+    <string name="Main_A_04">Điều kiện</string>
+    <string name="Main_A_05">Bình minh</string>
+    <string name="Main_A_06">Hoàng hôn</string>
+    <string name="Main_A_07">Biển</string>
+    <string name="Main_A_08">%</string>
+    <string name="Main_A_09">hPa</string>
+    <string name="Main_A_10">m/s</string>
+    <string name="Main_A_11">Biển</string>
+    <string name="Main_A_12">Nhiệt độ cao nhất</string>
+    <string name="Main_A_13">Nhiệt độ thấp nhất</string>
+    <string name="Main_A_14">Hôm nay</string>
 </resources>
